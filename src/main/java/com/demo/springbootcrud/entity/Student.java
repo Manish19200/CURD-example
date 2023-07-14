@@ -1,4 +1,4 @@
-package com.itcinfotech.springbootcrud.entity;
+package com.demo.springbootcrud.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

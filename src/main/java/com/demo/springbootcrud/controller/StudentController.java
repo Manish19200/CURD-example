@@ -1,4 +1,4 @@
-package com.itcinfotech.springbootcrud.controller;
+package com.demo.springbootcrud.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.itcinfotech.springbootcrud.entity.Student;
-import com.itcinfotech.springbootcrud.service.StudentService;
+import com.demo.springbootcrud.entity.Student;
+import com.demo.springbootcrud.service.StudentService;
 
 
 @RestController

@@ -1,8 +1,8 @@
-package com.itcinfotech.springbootcrud.repository;
+package com.demo.springbootcrud.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.itcinfotech.springbootcrud.entity.Student;
+import com.demo.springbootcrud.entity.Student;
 
 public interface StudentRepository extends JpaRepository<Student,Integer> {
 	Student findByName(String name);

@@ -1,12 +1,12 @@
-package com.itcinfotech.springbootcrud.service;
+package com.demo.springbootcrud.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.itcinfotech.springbootcrud.entity.Student;
-import com.itcinfotech.springbootcrud.repository.StudentRepository;
+import com.demo.springbootcrud.entity.Student;
+import com.demo.springbootcrud.repository.StudentRepository;
 
 @Service
 public class StudentService {
